@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: Begged
+  m_EditorClassIdentifier: 
+  location: 'September 16th, 2011 | Indiana Public Hospital '
+  prompt: Cody asked, pleaded and begged me not to, having faith She'd Return.
+  dataImage: {fileID: 2800000, guid: b092d471aadb6ce4d8ee597110df6594, type: 3}
+  promptColor: {r: 0.011992089, g: 0.24528301, b: 0, a: 1}
+  AmbianceObj: 
+  MusicObj: 
+  choices:
+  - {fileID: 11400000, guid: 1249bb8ee035b864299d370d4af45c2b, type: 2}

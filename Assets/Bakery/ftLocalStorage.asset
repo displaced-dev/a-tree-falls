@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Name: ftLocalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/Hospital Hallway/FBX/WaitingChair.fbx
+  - Assets/Hospital Hallway/FBX/HallwayShell.fbx
+  - Assets/Hospital Hallway/FBX/DentistBoard.fbx
+  - Assets/Hospital Hallway/FBX/FireExit.fbx
+  - Assets/Hospital Hallway/FBX/Direction.fbx
+  - Assets/Hospital Hallway/FBX/OrthopedicsBoard.fbx
+  - Assets/Hospital Hallway/FBX/OTSign Board.fbx
+  - Assets/Hospital Hallway/FBX/RunDirection.fbx
+  - Assets/Hospital Hallway/FBX/PosterG.fbx
+  - Assets/Hospital Hallway/FBX/PosterF.fbx
+  - Assets/Hospital Hallway/FBX/PosterE.fbx
+  - Assets/Hospital Hallway/FBX/PosterD.fbx
+  - Assets/Hospital Hallway/FBX/PosterC.fbx
+  - Assets/Hospital Hallway/FBX/Window.fbx
+  - Assets/Hospital Hallway/FBX/PosterB.fbx
+  - Assets/Hospital Hallway/FBX/PosterA.fbx
+  - Assets/Hospital Hallway/FBX/DoubleDoor.fbx
+  - Assets/Hospital Hallway/FBX/SingleDoor.fbx
+  modifiedAssetPaddingHash: d6a958ff3c4efff0f453af0cf427c1158cdb894bf527c115f627c115f827c1158cdb894b6209ecc0fd7d93631c7e936398f23a06df4dfff080c5d89098f23a067ac2a693de09ecc01b3a8033

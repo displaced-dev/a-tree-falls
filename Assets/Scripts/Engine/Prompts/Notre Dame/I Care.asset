@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: I Care
+  m_EditorClassIdentifier: 
+  location: 'March 24th, 2003 - Notre Dame, Indiana '
+  prompt: 'I mean I care, but not so much I care whether someone hears a tree falling
+    in the forest. '
+  dataImage: {fileID: 2800000, guid: dd5e59a3974d2b144ac6d3102cdcb39d, type: 3}
+  promptColor: {r: 0.36862746, g: 0, b: 0.5764706, a: 1}
+  AmbianceObj: 
+  MusicObj: 
+  choices:
+  - {fileID: 11400000, guid: c372ce4749494464783299fdf294c2b6, type: 2}

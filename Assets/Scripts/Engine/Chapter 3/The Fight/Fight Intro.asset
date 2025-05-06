@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: Fight Intro
+  m_EditorClassIdentifier: 
+  location: September 16th, 2011 | The Fight
+  prompt: "Before I got to the door, it swung itself open. A man so bereft from crying,
+    he didn\u2019t look unlike his mother, just stood there. The only thing I could
+    say\u2026."
+  dataImage: {fileID: 2800000, guid: 4353eaf8f97b9cf4ab912df8bad6fe93, type: 3}
+  promptColor: {r: 0.08922316, g: 0.31132078, b: 0, a: 1}
+  strengthValue: 0.85
+  AmbianceObj: 
+  MusicObj: BondBroken
+  choices:
+  - {fileID: 11400000, guid: 6583e67142d8b304288039ac821359ea, type: 2}
+  - {fileID: 11400000, guid: 0b2b61725a4a3e042b23aa0db18bc1fa, type: 2}

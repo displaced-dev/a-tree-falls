@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: DrunkArrest
+  m_EditorClassIdentifier: 
+  location: November 22nd 2013 | The Holidays
+  prompt: You'd think I'd be used to depression by now. But blowing a .35 was too
+    much, even for the Holidays. The psycho next to me was better company than my
+    own thoughts.
+  dataImage: {fileID: 2800000, guid: cf58152679c18964ca5e474122205098, type: 3}
+  promptColor: {r: 0.002013971, g: 0.5471698, b: 0, a: 1}
+  strengthValue: 0.65
+  AmbianceObj: Siren
+  MusicObj: GoodNote
+  choices:
+  - {fileID: 11400000, guid: 8086dca6a4b3dd84c9d4aca1ce0e41ee, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: Hospital 2
+  m_EditorClassIdentifier: 
+  location: 'July 15th, 1995 | In a hospital room at an ungodly hour '
+  prompt: "An arm appears swiftly, grasping and holding quite tightly, with a very
+    pregnant lady attached to the other side.  \u201CYou\u2019re my Husband now,
+    and you don\u2019t get to just turn and run\u201D "
+  dataImage: {fileID: 2800000, guid: 3f505036fdcd10b45ae60d02f63d4dae, type: 3}
+  promptColor: {r: 0.23921569, g: 0, b: 0, a: 1}
+  AmbianceObj: 
+  MusicObj: 
+  choices:
+  - {fileID: 11400000, guid: b794d5674698b114bab234ed2afbe1b8, type: 2}
+  - {fileID: 11400000, guid: 3c586c81e00baae4bb98535b114383cd, type: 2}

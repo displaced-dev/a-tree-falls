@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro SC.unity
+    guid: f13ab4c8055c5e94fabf210667b1aa91
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1 Real.unity
+    guid: 04748962a1e24b84ea59591cd5d94534
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2.unity
+    guid: 857422e9137e6b14c9b24d9f728b19dc
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Real.unity
+    guid: 5c40c488a9df4ec42a6753850c01dff5
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3.unity
+    guid: 831a85a4636f96545a4d8593c76b952b
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Real.unity
+    guid: 9409088dd2fd7e744a1c4cd3503dc8e3
+  - enabled: 1
+    path: Assets/Scenes/Chapter 4.unity
+    guid: c65338cf3193c5f48b99cda202bfcb93
+  - enabled: 1
+    path: Assets/Scenes/Chapter 4 Real.unity
+    guid: 5aaae1f7dcd6d78478cb6e0f6e9944b7
+  - enabled: 1
+    path: Assets/Scenes/TheEnd.unity
+    guid: 2f436da328c8f6f4f8ee50e7fc7f4661
+  m_configObjects: {}

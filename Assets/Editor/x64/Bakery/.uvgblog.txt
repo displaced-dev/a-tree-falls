@@ -1,0 +1,394 @@
+2024-9-6
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2_diffuse" 4 16 2 "gi_Chapter 1 Real_LMA20.bin" "Chapter 1 Real_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2_diffuse" 4 16 2 "gi_Chapter 1 Real_LMA21.bin" "Chapter 1 Real_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2_diffuse" 4 16 2 "gi_Chapter 1 Real_LMA22.bin" "Chapter 1 Real_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2_diffuse" 4 16 2 "gi_Chapter 1 Real_LMA23.bin" "Chapter 1 Real_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA2_final" 4 16 2 "gi_Chapter 1 Real_LMA24.bin" "Chapter 1 Real_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA2_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "2" "Chapter 1 Real_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA2_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Total cache size 196313948
+Total cache size after purge 196313948
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+abort_threads: Failed aborting id: 0000000000005758, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002BA0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005758, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002BA0, mono_thread_manage will ignore it
+
+2024-9-7
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\vv3ga\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 196313948
+Total cache size after purge 196313948
+Total cache size 205343672
+Total cache size after purge 205343672
+Total cache size 205343672
+Total cache size after purge 205343672
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+Total cache size 216828360
+Total cache size after purge 216828360
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+2024-9-9
+Rendering UV GBuffer for Chapter 1 Real_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Chapter 1 Real_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\vv3ga\AppData\Local\Temp\frender" "uvpos_Chapter 1 Real_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\vv3ga\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX addmul "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM00.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA10.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM01.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA11.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM02.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA12.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_diffuse" 4 16 0 "gi_Chapter 1 Real_LM03.bin" "Chapter 1 Real_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_diffuse" 4 16 1 "gi_Chapter 1 Real_LMA13.bin" "Chapter 1 Real_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LM0_final" 4 16 0 "gi_Chapter 1 Real_LM04.bin" "Chapter 1 Real_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\vv3ga\AppData\Local\Temp\frender" "Chapter 1 Real_LMA1_final" 4 16 1 "gi_Chapter 1 Real_LMA14.bin" "Chapter 1 Real_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "0" "Chapter 1 Real_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\vv3ga\AppData\Local\Temp\frender" "1" "Chapter 1 Real_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LM0_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\vv3ga\AppData\Local\Temp\frender/Chapter 1 Real_LMA1_final_HDR.lz4" "C:/Users/vv3ga/A Tree Falls In A Forrest/Assets/BakeryLightmaps/Chapter 1 Real_LMA1_final.hdr" 1024
+abort_threads: Failed aborting id: 00000000000086B4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000101D4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000086B4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000101D4, mono_thread_manage will ignore it
+

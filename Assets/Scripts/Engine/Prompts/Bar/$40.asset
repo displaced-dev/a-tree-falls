@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: $40
+  m_EditorClassIdentifier: 
+  location: "December 23rd, 1993 | Guthrie\u2019s Alley Cat, Bakersfield California"
+  prompt: "I don\u2019t have $40. All I\u2019ve got is bad grades, a beat up car,
+    and eyes that can\u2019t stop looking at you."
+  dataImage: {fileID: 2800000, guid: 4353eaf8f97b9cf4ab912df8bad6fe93, type: 3}
+  promptColor: {r: 1, g: 1, b: 1, a: 1}
+  AmbianceObj: Bar
+  MusicObj: 
+  choices:
+  - {fileID: 11400000, guid: 3715271c93d111541af90f69e3abb92e, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac0ae040d80fa45a2ebb9a7b353360, type: 3}
+  m_Name: Finale 1
+  m_EditorClassIdentifier: 
+  location: 'September 14th, 2015 | But Of Course '
+  prompt: There he was, lying in a hospital bed, facing a fate that echoed hers four
+    years ago. The most painful part is realizing he went through it all in silence,
+    and I never saw the signs
+  dataImage: {fileID: 2800000, guid: b32ac93afd3339546b3e7ee69971f416, type: 3}
+  promptColor: {r: 0.5471698, g: 0.08517267, b: 0.4643481, a: 1}
+  strengthValue: 0.2
+  AmbianceObj: 
+  MusicObj: GoodNote
+  choices:
+  - {fileID: 11400000, guid: 5f9d64f2538ff22468bc242a37bb7714, type: 2}
